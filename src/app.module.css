@@ -1,0 +1,63 @@
+.app {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2.2rem;
+	margin: 40px auto;
+	color: yellow;
+}
+
+.container {
+	padding: 10px;
+	margin: 12px;
+	/* border: 2px solid ; */
+}
+
+
+/*
+button {
+	margin: 15px 20px;
+	cursor: pointer;
+	background-color: rgb(210, 240, 249);
+	color: rgb(3, 119, 173);
+	height: 50px;
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px gray
+} */
+
+/*  */
+/* button:hover { */
+	/* background-color: lightsalmon; */
+	/* color: crimson; */
+/*  */
+/* } */
+
+.loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+	border: 5px solid #61dafb;
+	border-radius: 50%;
+	color: #61dafb;
+	border-left-color: transparent;
+	animation: loader 1s infinite;
+}
+
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

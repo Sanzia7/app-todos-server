@@ -1,0 +1,85 @@
+.todo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 20px;
+	margin: 20px 0;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid violet;
+	box-shadow: 3px 1px 3px rgb(57, 54, 68);
+	color: deeppink;
+	background-color: rgb(142, 244, 142);
+	border: none;
+}
+
+.title {
+	width: 100%;
+	text-align: left;
+}
+
+input{
+	font-size: 18px;
+	padding: 6px;
+	width: 90%;
+	color: rgb(37, 107, 204);
+}
+
+.todoIcon {
+	font-size: 2rem;
+	margin-right: 10px;
+	color: darkorchid;
+}
+
+.todo.completedTodo {
+	background-color:yellow;
+	border-color: gray;
+	color: rgb(98, 136, 136);
+}
+
+.todo.completedTodo .todoIcon {
+	color: darkgreen;
+}
+/*  */
+/* .deleteIcon { */
+	/* cursor: pointer; */
+	/* color: whitesmoke; */
+	/* font-size: 24px; */
+	/* transition: transform 0.5s; */
+/* } */
+
+
+/* .deleteIcon:hover { */
+	/* cursor: pointer; */
+	/* transform: scale(1.1); */
+	/* color: red; */
+/* } */
+
+
+/* .todo.completedTodo .deleteIcon {
+	color: skyblue; */
+
+/* .todo.completedTodo .deleteIcon:hover {
+	color: yellow;
+} */
+
+
+
+
+
+/* .deleteIcon:hover {
+	color: red;
+} */
+
+.checkbox {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	/* margin: 0 10px 0 0; */
+	display: flex;
+	text-align: center;
+	align-items: center;
+	border: none;
+	border-radius: 8px;
+	/* box-shadow: 2px 1px 2px darkslategrey; */
+}

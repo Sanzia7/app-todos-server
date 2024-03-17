@@ -1,0 +1,54 @@
+.controlPanel {
+	margin: 12px auto;
+	width: 93%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	border: none;
+	padding: 12px;
+	border-radius: 8px;
+	background-color: #9c72a8;;
+	box-shadow: 3px 2px 3px rgb(68, 56, 56);
+}
+
+/* .search {
+	width: 90%;
+	height: 40px;
+	font-size: 20px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+}
+
+/* .sorting {
+	height: 40px;
+	width: 12%;
+	font-size: 20px;
+	margin: 10px;
+	display: block;
+	border-radius: 5px;
+	border: none;
+} */
+
+/* .addBtn { */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* margin: 10px; */
+	/* padding: 10px 15px; */
+	/* cursor: pointer; */
+	/* background-color: beige; */
+	/* width: 10%; */
+	/* height: 40px; */
+	/* font-size: 20px; */
+	/* border-radius: 5px; */
+	/* border: none; */
+/* } */
+
+/* .addBtn:hover { */
+	/* background-color: yellow; */
+/* } */
+
+

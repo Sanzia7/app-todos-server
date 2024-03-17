@@ -1,0 +1,26 @@
+.btn {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8px;
+	padding: 10px 15px;
+	cursor: pointer;
+	background-color: rgb(5, 210, 246);
+	/* color: blue; */
+	color: darkgreen;
+	width: 32px;
+	height: 32px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 1px 2px darkslategrey;
+	/* transform: scale(1.1) */
+}
+
+.btn:hover:hover{
+	background-color: sandybrown;
+	/* color: darkmagenta; */
+	color: blue;
+	transform: scale(1.05);
+}

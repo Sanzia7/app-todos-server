@@ -1,0 +1,59 @@
+/* .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8px;
+	padding: 10px 15px;
+	cursor: pointer;
+	background-color: rgb(5, 210, 246);
+	color: blue;
+	color: darkmagenta;
+	width: 32px;
+	height: 32px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 1px 2px darkslategrey;
+}
+
+.btn:hover:hover {
+	background-color: sandybrown;
+	color: darkmagenta;
+	color: blue;
+	transform: scale(1.05);
+} */
+
+
+/* .checkbox {
+	height: 35px;
+	width: 12%;
+	font-size: 20px;
+	margin: 10px;
+	display: block;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 1px 2px gray;
+} */
+
+
+.checkbox {
+	display: none;
+}
+
+.label {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: -2px;
+	right: -2px;
+	bottom: -2px;
+	left: -2px;
+	border-radius: 5px;
+
+}
+
+.checkbox:checked + .label {
+	padding: 2px 0 0 2px;
+	box-shadow: inset 2px 1px 5px 0 darkslategray;
+}
