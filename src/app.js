@@ -1,4 +1,3 @@
-
 //npx json-server --watch src/db.json --port 3007
 //http://localhost:3007/todos
 
@@ -51,7 +50,7 @@ export const App = () => {
 	const onAddTitle = (id, newTitle) => {
 		setTodos(setTodo(todos, { id, title: newTitle }))
 	}
-	const onIsChangeCompleted = (id, isCompleted) => {
+	const onChangeIsCompleted = (id, isCompleted) => {
 		requestUpdateTodo({ id, completed: isCompleted }).then(() => {
 			setTodos(setTodo(todos, { id, completed: isCompleted }))
 		})
@@ -88,7 +87,7 @@ export const App = () => {
 						onEdit={() => onEditTodo(id)}
 						onChangeTitle={(newTitle) => onAddTitle(id, newTitle)}
 						onChangeCompleted={(isCompleted) =>
-							onIsChangeCompleted(id, isCompleted)
+							onChangeIsCompleted(id, isCompleted)
 						}
 						onSave={() => onSaveTodo(id)}
 						onRemove={() => onRemoveTodo(id)}

@@ -31,12 +31,11 @@ button {
 	box-shadow: 1px 1px 2px gray
 } */
 
-/*  */
-/* button:hover { */
-	/* background-color: lightsalmon; */
-	/* color: crimson; */
-/*  */
-/* } */
+/* 
+button:hover {
+	background-color: lightsalmon;
+	color: crimson;
+} */
 
 .loader {
 	position: fixed;
